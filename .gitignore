@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# GeoIP database - not redistributable, download your own (see README)
+*.mmdb
+GeoLite2-City_*/
+
+# Generated reports (keep the folder, ignore run output)
+reports/*.json
+!sample_data/sample_forensic_report.json
+
+# OS/editor cruft
+.DS_Store
+.idea/
+.vscode/
